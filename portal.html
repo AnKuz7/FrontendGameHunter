@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="image/em.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Game Hunter</title>
+    <link rel="stylesheet" href="normalize.css" type="text/css">
+    <link rel="stylesheet" href="GH.css" type="text/css">
+    <link rel="stylesheet" href="GH_P.css" type="text/css">
+    <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+  </head>
+
+  <body background="image/fon1.jpg"> 
+    <div>
+        <img class="pic" name = 'img' src = "image/top.png" />
+
+          <div class="wrap-portal">
+              <div class="menu" >
+                <a class="menu-btn a-btn" data-role="nav-my_profile" href="#my_profile">Мой профиль</a>
+                <a class="menu-btn a-btn" data-role="nav-my_ads" href="#my_ads">Мои объявления</a>
+                <a class="menu-btn a-btn" data-role="nav-create_ad" href="#create_ad">Создать объявление</a>
+                <a class="menu-btn a-btn" data-role="nav-all_ads" href="#all_ads">Все объявления</a>
+                <a class="menu-btn a-btn" data-role="nav-exit" href="#exit">Выход</a>
+              </div>
+
+              <div class="data" id="results"></div>
+          </div>
+          <br><br>
+    </div>
+
+    <script src="entry.js" type="module"></script>
+
+    <script id="my_profileTemplate" type="text/temlate">
+      <div class="ad-form">
+        <span class="ad-form-title">
+          Мой профиль
+        </span>
+      </div>
+    </script>
+
+    <script id="my_adsTemplate" type="text/temlate">
+      <div class="ad-form">
+        <span class="ad-form-title">
+          Мои объявления
+        </span>
+      </div>
+    </script>
+
+    <script id="create_adTemplate" type="text/temlate">
+      <form class="ad-form">
+        <span class="ad-form-title">
+          Создать объявление
+        </span>
+
+        <div class="wrap-input-ad">
+          <input class="input-ad" type="date" id="dateCr" placeholder="Дата">
+        </div>
+
+        <div class="wrap-input-ad">
+          <input class="input-ad" type="time" id="timeCr" placeholder="Время">
+        </div>
+
+        <div class="wrap-input-ad">
+          <input class="input-ad" type="text" id="placeCr" placeholder="Место">
+        </div>
+
+        <div class="wrap-input-ad">
+          <input class="input-ad" type="number" id="quantityCr" placeholder="Количество игроков">
+        </div>
+
+        <div class="wrap-input-ad">
+          <input class="input-ad" type="text" id="name_gameCr" placeholder="Название игр">
+        </div>
+
+        <div class="wrap-input-ad">
+          <input class="input-ad" type="text" id="lastingCr" placeholder="Предполагаемая длительность">
+        </div>
+
+        <div class="wrap-input-ad">
+          <input class="input-ad" type="text" id="descriptionCr" placeholder="Описание">
+        </div>
+
+        <button class="menu-btn ad-form-btn" id ="tt" type="button">
+          Разместить
+        </button>
+      </form>
+    </script>
+
+    <script id="all_adsTemplate" type="text/temlate">
+      <div class="ad-form">
+        <span class="ad-form-title">
+          Все объявления
+        </span>
+      </div>
+    </script>
+
+  </body>
+</html>
