@@ -44,6 +44,6 @@ export default {
 
     async exitRoute(){
         console.log('rr');
-        document.location.href = "/index.html";
+        document.location.href = "/home.html";
     }
 };

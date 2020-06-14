@@ -1,1 +1,1 @@
-worker: node index.html
+worker: node home.html
