@@ -60,7 +60,7 @@
   }
 
   .menu-btn:hover {
-    background: #333333;
+    background: #706f6f;
   }
   
   .a-btn:hover {
@@ -116,6 +116,11 @@
   .ad-form-btn{
     width: 170px;
     margin-left: 0;
+  }
+
+  .bush img {
+    max-width: 100%;
+    padding-top: 15px;
   }
 
 
