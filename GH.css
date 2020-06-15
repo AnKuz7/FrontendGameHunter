@@ -5,6 +5,7 @@
   }
 
 body{
+  background-image: url(image/fon1.jpg);
     background-attachment: fixed;
     background-size: 100%, auto;
     background-repeat: no-repeat;
