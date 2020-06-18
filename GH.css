@@ -1,37 +1,37 @@
 
 *{
-    margin: 0;
-    padding: 0;
-  }
+  margin: 0;
+  padding: 0;
+}
 
 body{
-    background-image: url(image/fon1.jpg);
-    background-attachment: fixed;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    font-family: 'Times New Roman', Times, serif;
-    
-  }
+  background-image: url(image/fon1.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  font-family: 'Times New Roman', Times, serif;
   
-  .pic{
-    width: 100%; 
-    height: auto;
-    justify-content: center;
-    
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 50;
-  }
+}
+  
+.pic{
+  width: 100%; 
+  height: auto;
+  justify-content: center;
+  
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 50;
+}
   
 
-  .hunt{
-    width: auto; 
-    height: 80%;
-    justify-content: center;
-  }
+.hunt{
+  width: auto; 
+  height: 80%;
+  justify-content: center;
+}
 
 
   /*---------------------------------------------*/
@@ -48,7 +48,7 @@ a {
 }
 
 a:focus {
-	outline: none !important;
+	outline: none;
 }
 
 a:hover {
@@ -61,13 +61,6 @@ h1,h2,h3,h4,h5,h6 {
 	margin: 0px;
 }
 
-p {
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 14px;
-	line-height: 1.7;
-	color: #666666;
-	margin: 0px;
-}
 
 ul, li {
 	margin: 0px;
