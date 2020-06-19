@@ -110,7 +110,8 @@ iframe {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  color: #666666;
+  text-decoration: none;
+  color: #8d8d8d
 }
 
 
@@ -299,6 +300,7 @@ iframe {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  font-weight: 600;
 }
 
 /*------------------------------------------------------------------
